@@ -1,6 +1,6 @@
-Apologies for the confusion. Here's the complete and successful code for the Android NFC recorder app:
 
-```kotlin
+
+kotlin
 import android.app.PendingIntent
 import android.content.Intent
 import android.nfc.NfcAdapter
@@ -107,8 +107,3 @@ And set up the NFC intent filters in the manifest:
     <action android:name="android.nfc.action.TAG_DISCOVERED" />
     <category android:name="android.intent.category.DEFAULT" />
 </intent-filter>
-```
-
-This code should work successfully to create an Android NFC recorder app. 
-The app will capture NFC tag data only if a certain time interval has passed since the last capture and if the tag has not been previously recorded.
-
